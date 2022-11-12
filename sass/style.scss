@@ -9,6 +9,7 @@ html {
 * {
     text-decoration: none;
     color: #fff;
+    list-style-type: none;
 }
 
 body {
@@ -280,6 +281,7 @@ input {
     height: 101px;
     max-width: 1320px;
     padding-top: 15rem;
+    padding-bottom: 46rem;
     .section__five-content {
         display: flex;
         justify-content: space-between;
@@ -310,4 +312,14 @@ input {
             color: #FFFFFF;
         }
     }
+}
+hr {
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: left;
 }

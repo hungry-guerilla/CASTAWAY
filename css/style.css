@@ -9,6 +9,7 @@ html {
 * {
   text-decoration: none;
   color: #fff;
+  list-style-type: none;
 }
 
 body {
@@ -322,6 +323,7 @@ input {
   height: 101px;
   max-width: 1320px;
   padding-top: 15rem;
+  padding-bottom: 46rem;
 }
 .section__five .section__five-content {
   display: -webkit-box;
@@ -357,4 +359,20 @@ input {
   font-size: 36px;
   line-height: 43px;
   color: #FFFFFF;
+}
+
+hr {
+  width: 10rem;
+  margin-bottom: 3rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
