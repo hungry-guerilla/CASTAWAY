@@ -236,3 +236,44 @@ body {
 // }
 
 // -------SECTION__FOUR---------
+.section__four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 60px 60px 80px 60px;
+    background: #000000;
+    border-radius: 32px;
+    .section__four-content {
+        width: 431px;
+    }
+}
+
+.it-callback__input {
+    width: 522px;
+    height: 82px;
+    background: #000;
+    padding: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    border: none;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+}
+
+.it-callback__buttons > button {
+    text-decoration: none;
+    border: 1px solid black;
+}
+input {
+    padding-bottom: 10px;
+}
+
+// ----------SECTION___FIVE-----------
+

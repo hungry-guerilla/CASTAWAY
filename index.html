@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <title>CASTAWAY</title>
 </head>
@@ -99,7 +101,36 @@
                 </div>
                 <img src="./img/IMAGEman2.png" alt="man__2" class="section__three-img">
             </section>
+            <section class="section__four">
+                <div class="section__four-content">
+                    <h3 class="item-content-sub">Email newsletter</h3>
+                    <h1 class="item-content-title">Subscribe for updates</h1>
+                </div>
+                <div class="secton__four-form">
+                    <form action="/sendCallBack.php" method="POST" name="callback-form" data-it-form
+                        class="it-callback__form it-form--hide" enctype="multipart/form-data">
+                        <div class="it-callback__input-wrap">
+                            <div class="it-callback__input-inner-wrap">
+                                <input name="NAME" maxlength="200" value="" placeholder="Name"
+                                    class="it-callback__input" required="">
+                            </div>
+                            <div class="it-callback__input-inner-wrap">
+                                <input type="email" name="MAIL" maxlength="200" value="" placeholder="Email"
+                                    class="it-callback__input" data-phone="true" required="">
+                            </div>
+                            <div class="it-callback__buttons">
+                                <button type="submit" class="it-btn it-callback__btn btn-light">
+                                    Submit
+                                </button>
+                            </div>
 
+                            <input type="hidden" value="callback-form" name="FORM_NAME">
+                            <input type="hidden" name="name">
+                            <input type="hidden" name="phone">
+                        </div>
+                    </form>
+                </div>
+            </section>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/3464287fa3.js" crossorigin="anonymous"></script>
