@@ -197,3 +197,42 @@ body {
 .second__section-item-content-img {
     border-radius: 15px;
 }
+// -------SECTION-THREE---------
+.section__three {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20rem;
+}
+.section__three-content {
+    padding-right: 94px;
+    .item-content-title {
+       padding-bottom: 10px;
+    }
+}
+.arrow {
+    position: relative;
+    background: #118DA8;
+    border-radius: 400px;
+    width: 112px;
+    height: 112px;
+}
+.section__three-arrow-btn {
+    i {
+        position: absolute;
+        top: 30px;
+        right: 35px;
+        font-size: 3rem;
+        transition: .4s all;
+    }
+    &:hover {
+        opacity: .6;
+    }
+}
+// .item-content-sub {
+// }
+// .item-content-descr {
+// }
+// .section__three-img {
+// }
+
+// -------SECTION__FOUR---------

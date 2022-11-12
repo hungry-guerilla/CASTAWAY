@@ -232,4 +232,41 @@ body {
 
 .second__section-item-content-img {
   border-radius: 15px;
+}
+
+.section__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20rem;
+}
+
+.section__three-content {
+  padding-right: 94px;
+}
+.section__three-content .item-content-title {
+  padding-bottom: 10px;
+}
+
+.arrow {
+  position: relative;
+  background: #118DA8;
+  border-radius: 400px;
+  width: 112px;
+  height: 112px;
+}
+
+.section__three-arrow-btn i {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  font-size: 3rem;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.section__three-arrow-btn:hover {
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
