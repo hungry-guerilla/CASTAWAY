@@ -48,3 +48,66 @@ body {
         }
     }
 }
+
+// -------_FIRST---SECTION--------
+.first__section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 9rem;
+    .first__section-img {
+        width: 680px;
+        height: 873px;
+    }
+    .first__section__logo-block {
+        padding-left: 4rem;
+        padding-top: 8rem;
+        position: relative;
+    }
+    .stripe {
+        position: absolute;
+        top: 360px;
+    }
+    .first__section-title {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 88px;
+        /* or 126% */
+
+        letter-spacing: 3.2px;
+
+        color: #FFFFFF;
+        span {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 88px;
+            /* or 126% */
+            letter-spacing: 3.2px;
+            color: #FFFFFF;
+        }
+    }
+}
+.first__section__social-media {
+    padding-top: 3rem;
+}
+.first__section__social-icons {
+    padding-top: 1rem;
+    img {
+        padding-right: 0.2rem;
+        width: 25px;
+        height: 25px;
+        opacity: 1;
+        transition: .4s all;
+        cursor: pointer;
+        &:hover {
+            opacity: .6;
+        }
+    }
+}
+
+// -------Second---SECTION--------

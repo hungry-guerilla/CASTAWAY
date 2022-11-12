@@ -62,4 +62,72 @@ body {
 }
 .header .header__nav-link:hover {
   color: cadetblue;
+}
+
+.first__section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-bottom: 9rem;
+}
+.first__section .first__section-img {
+  width: 680px;
+  height: 873px;
+}
+.first__section .first__section__logo-block {
+  padding-left: 4rem;
+  padding-top: 8rem;
+  position: relative;
+}
+.first__section .stripe {
+  position: absolute;
+  top: 360px;
+}
+.first__section .first__section-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  /* or 126% */
+  letter-spacing: 3.2px;
+  color: #FFFFFF;
+}
+.first__section .first__section-title span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 88px;
+  /* or 126% */
+  letter-spacing: 3.2px;
+  color: #FFFFFF;
+}
+
+.first__section__social-media {
+  padding-top: 3rem;
+}
+
+.first__section__social-icons {
+  padding-top: 1rem;
+}
+.first__section__social-icons img {
+  padding-right: 0.2rem;
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+.first__section__social-icons img:hover {
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
