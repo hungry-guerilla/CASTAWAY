@@ -130,4 +130,106 @@ body {
 }
 .first__section__social-icons img:hover {
   opacity: 0.6;
+}
+
+.second__section {
+  padding-bottom: 280px;
+}
+
+.second__section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second__section-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #FFFFFF;
+}
+
+.section-header-btn, .btn-light {
+  background: #118DA8;
+  padding: 0.7rem;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.second__section-item {
+  padding: 40px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: auto;
+  height: 545px;
+  background: #000000;
+  border-radius: 32px;
+  margin-bottom: 60px;
+}
+
+.second__section-item-content {
+  padding-top: 48px;
+  padding-left: 53px;
+}
+
+.item-content-sub {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #118DA8;
+  padding-bottom: 18px;
+}
+
+.item-content-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  padding-bottom: 28px;
+  /* or 110% */
+  letter-spacing: 2.56px;
+  color: #FFFFFF;
+}
+
+.item-content-descr {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 18px;
+}
+
+.text-pad {
+  margin-top: -35px;
+}
+
+.second__section-item-content-img {
+  border-radius: 15px;
 }/*# sourceMappingURL=style.css.map */
