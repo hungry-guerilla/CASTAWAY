@@ -1,0 +1,50 @@
+@import url('/sass/_reset.scss');
+
+html {
+    font-size: 17px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background: #191919;
+    box-sizing: inherit;
+    color: #fff;
+    font-family: 'DM sans';
+}
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+.content {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 4.3rem;
+    .header__nav {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        left: 60%;
+    }
+    .header__nav-link {
+        padding-right: 4rem ;
+        &:last-child {
+            padding-right: 0;
+        }
+        &:hover {
+            color: cadetblue;
+        }
+    }
+}

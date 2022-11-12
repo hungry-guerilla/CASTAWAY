@@ -1,0 +1,65 @@
+@import url("/sass/_reset.scss");
+html {
+  font-size: 17px;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background: #191919;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  color: #fff;
+  font-family: "DM sans";
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 4.3rem;
+}
+.header .header__nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 60%;
+}
+.header .header__nav-link {
+  padding-right: 4rem;
+}
+.header .header__nav-link:last-child {
+  padding-right: 0;
+}
+.header .header__nav-link:hover {
+  color: cadetblue;
+}/*# sourceMappingURL=style.css.map */
