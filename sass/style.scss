@@ -276,4 +276,38 @@ input {
 }
 
 // ----------SECTION___FIVE-----------
-
+.section__five {
+    height: 101px;
+    max-width: 1320px;
+    padding-top: 15rem;
+    .section__five-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .section__five-content-block {
+            padding-top: 64px;
+            padding-left: 50px;
+            padding-right: 60px;
+            width: 323px;
+            height: 321px;
+            background: #000000;
+            border-radius: 32px;
+            margin-bottom: 1rem;
+            margin-right: .3rem;
+        .fa-star {
+            padding-right: 0.5rem;
+            padding-bottom: 21px;
+            color: goldenrod;
+        }
+        .section__five-content-block-title {
+            padding-bottom: 19px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+    }
+}
