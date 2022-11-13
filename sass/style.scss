@@ -10,6 +10,7 @@ html {
     text-decoration: none;
     color: #fff;
     list-style-type: none;
+    transition: .6s all linear;
 }
 
 body {
@@ -317,9 +318,72 @@ hr {
     width: 10rem;
     margin-bottom: 3rem;
 }
+// -------FOOOTER---------
 .footer {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     list-style-type: none;
     text-align: left;
+    padding-bottom: 3rem;
+    .footer__first-block {
+        margin-bottom: 5rem;
+        .footer__social-icon {
+            padding-right: 0.5rem ;
+            transition: .4s all linear;
+            cursor: pointer;
+            &:hover {        
+                opacity: .6;
+            }
+        }
+    }
+    .list__block {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        .footer__link-list-one, .footer__link-list-two {
+            align-self: baseline;
+            padding-top: 1.4rem;
+            li {
+                padding-bottom: 0.5rem;
+                a {
+                    transition: .4s all linear;
+                    &:hover {
+                        color: #118DA8;
+                    }
+                }
+            }
+        }
+    }
+    .social__icons {
+        align-self: baseline;
+        padding-top: 2.5rem;
+        translate: -170%;
+        .social__icons-item {
+            width: 25px;
+            height: 25px;
+            padding-right: 0.05rem;
+        }
+    }
+}
+
+.copyright {
+    border-top: 1px solid #757575;
+    padding-top: 1rem;
+    h1 {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    opacity: .2;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
